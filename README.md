@@ -2,10 +2,6 @@
 # ML-Tennis-Predictor
 We use ML to predict tennis matches
 =======
-# Tennis-Prediction
-
-<img align="right" width="200" src="./tennis_robot.png" />
-
 The goal of this project is to predict the outcome of a tennis match using the data of both players and ML models.\
 The data used comes from [Jeff Sackmann's repository](https://github.com/JeffSackmann).
 
