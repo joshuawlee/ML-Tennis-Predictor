@@ -1,0 +1,28 @@
+Features to add:
+    - Ranking over time: ranking last months
+    - Ranking should come from ranking files and not match files
+    - Last x (5 currently) matches could be an argument (5, 10, 15, etc...)
+    - % Victory against players of same rank as adv
+
+
+Improvements:
+
+    - encoding last x matches [v, v, v, d, d] => [1, 1, 1, 0, 0]
+    - encoding last x matches versus
+    - add non main atp matches
+
+Done:
+    - Using nb of games played instead of nb of sets ?
+    - use match elapsed minutes to model fatigue
+    - player.versus should not be given as a whole from match but only versus against adv ?
+    - cut cache in several files for dynamic loading with different parameters
+    - Fix columns names
+    - Remove all persons from versus
+    - add unique match ID to link to original matches data
+    - add concatenation of players stats at match time, result & match stats
+    - age at match time not well handled
+        # Either get it from match data (easier)
+        # Or better handling birthdate vs match date
+    - have better historic of matches order & versus matches = {id: [date, result], [date, result], ...]}
+    - Remove double data
+
